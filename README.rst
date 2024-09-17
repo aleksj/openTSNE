@@ -3,7 +3,7 @@ openTSNE
 
 |Build Status| |ReadTheDocs Badge| |License Badge|
 
-openTSNE is a modular Python implementation of t-Distributed Stochasitc Neighbor Embedding (t-SNE) [1]_, a popular dimensionality-reduction algorithm for visualizing high-dimensional data sets. openTSNE incorporates the latest improvements to the t-SNE algorithm, including the ability to add new data points to existing embeddings [2]_, massive speed improvements [3]_ [4]_ [5]_, enabling t-SNE to scale to millions of data points and various tricks to improve global alignment of the resulting visualizations [6]_.
+openTSNE is a modular Python implementation of t-Distributed Stochastic Neighbor Embedding (t-SNE) [1]_, a popular dimensionality-reduction algorithm for visualizing high-dimensional data sets. openTSNE incorporates the latest improvements to the t-SNE algorithm, including the ability to add new data points to existing embeddings [2]_, massive speed improvements [3]_ [4]_ [5]_, enabling t-SNE to scale to millions of data points and various tricks to improve global alignment of the resulting visualizations [6]_.
 
 .. figure:: docs/source/images/macosko_2015.png
    :alt: Macosko 2015 mouse retina t-SNE embedding
@@ -92,7 +92,7 @@ then, we'll import and run
 Citation
 --------
 
-If you make use of openTSNE for your work we would appreciate it if you would cite the paper
+If you use openTSNE, please cite this paper
 
 .. code::
 
@@ -107,7 +107,9 @@ If you make use of openTSNE for your work we would appreciate it if you would ci
         doi={10.18637/jss.v109.i03},
         url={https://www.jstatsoft.org/index.php/jss/article/view/v109i03}
     }
-    
+
+We will really appreciate it!
+
 openTSNE implements two efficient algorithms for t-SNE. Please consider citing the original authors of the algorithm that you use. If you use FIt-SNE (default), then the citation is [5]_ below, but if you use Barnes-Hut the citations are [3]_ and [4]_.
 
 
